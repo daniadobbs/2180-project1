@@ -1,0 +1,68 @@
+*{
+	margin=0;
+	padding=0;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	background-color: aquamarine;
+	line-height: 20px;
+	margin: 70px 100px;
+
+}
+
+.heading{
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+
+}
+
+#name{
+	font-size: 40px;
+}
+
+.pic{
+	float: right;
+	position: relative;
+	height: 200px;
+	width: 180px;
+	border: 10px solid white;
+	transform: rotate(-3deg);
+	right: 430px;
+	bottom: 50px;
+	box-shadow: 0 5px 4px grey, 0 5px 4px grey;	
+}
+
+.about{
+	font-style: italic;
+	float: left;
+	max-width: 540px;
+}
+
+#contact  {
+			border-top: 1px solid black;
+			width: 780px;
+}
+
+.clear{
+	clear: both;
+}
+
+dt{
+	float: left;
+	height: 50px;
+	width: 120px;
+	border-right: 1px solid black;
+	padding: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+dd{
+	float: right;
+	width: 900px;
+
+}
+
