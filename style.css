@@ -1,22 +1,23 @@
-*{
-	margin=0;
-	padding=0;
+
+html{
+	background-color: aquamarine;
 }
 
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
-	background-color: aquamarine;
 	line-height: 20px;
 	margin: 70px 100px;
+	background-color: white;
+	height: 200px;
+	width: 800px;
 
 }
 
-.heading{
+.header{
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
-
 }
 
 #name{
@@ -30,9 +31,10 @@ body{
 	width: 180px;
 	border: 10px solid white;
 	transform: rotate(-3deg);
-	right: 430px;
+	right: 30px;
 	bottom: 50px;
 	box-shadow: 0 5px 4px grey, 0 5px 4px grey;	
+	margin: -20px;
 }
 
 .about{
@@ -50,19 +52,25 @@ body{
 	clear: both;
 }
 
-dt{
+
+.details h4{
+	margin-top: 0;
+}
+.details{
 	float: left;
-	height: 50px;
-	width: 120px;
-	border-right: 1px solid black;
-	padding: 10px;
-	text-align: right;
+	padding-left: 20px;
+}
+
+.headings{
 	font-weight: bold;
+	float: left;
+	border-right: 1px solid grey;
+	height: 30px;
+	width: 80px;
 }
 
-dd{
-	float: right;
-	width: 900px;
 
+ul{
+	padding-left: 0;
+	margin-top: 0;
 }
-
