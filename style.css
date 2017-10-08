@@ -9,39 +9,6 @@ body{
 	margin: 70px 100px;
 	background-color: white;
 	border: 1px solid grey;
-	width: 820px;
-	height: 1200px;
-	padding: 10px;
-}
-
-.header{
-	font-family: 'Oswald', sans-serif;
-	font-weight: normal;
-	letter-spacing: 1px;	
-}
-
-.pic{
-	float: right;
-	position: relative;
-	height: 200px;
-	width: 180px;
-	border: 10px solid white;
-	transform: rotate(-3deg);
-	right: 30px;
-	bottom: 50px;
-	box-shadow: 0 5px 4px grey, 0 5px 4px grey;	
-	margin: -20px;
-html{
-	background-color: purple;
-}
-
-body{
-	font-family: 'Dosis', sans-serif;
-	font-size: 18px;
-	line-height: 20px;
-	margin: 70px 100px;
-	background-color: white;
-	border: 1px solid grey;
 	width: 840px;
 	height: 1280px;
 	padding: 10px;
