@@ -1,26 +1,24 @@
-*{
-	margin=0;
-	padding=0;
+
+html{
+	background-color: purple;
 }
 
 body{
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
-	background-color: aquamarine;
 	line-height: 20px;
 	margin: 70px 100px;
-
+	background-color: white;
+	border: 1px solid grey;
+	width: 820px;
+	height: 1200px;
+	padding: 10px;
 }
 
-.heading{
+.header{
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
-	letter-spacing: 1px;
-
-}
-
-#name{
-	font-size: 40px;
+	letter-spacing: 1px;	
 }
 
 .pic{
@@ -30,13 +28,15 @@ body{
 	width: 180px;
 	border: 10px solid white;
 	transform: rotate(-3deg);
-	right: 430px;
+	right: 30px;
 	bottom: 50px;
 	box-shadow: 0 5px 4px grey, 0 5px 4px grey;	
+	margin: -20px;
 }
 
 .about{
 	font-style: italic;
+	font-weight: bold;
 	float: left;
 	max-width: 540px;
 }
@@ -50,19 +50,34 @@ body{
 	clear: both;
 }
 
-dt{
+
+.details h4{
+	margin-top:0;
+	margin-left: 70px;
+}
+.details{
 	float: left;
-	height: 50px;
-	width: 120px;
-	border-right: 1px solid black;
-	padding: 10px;
-	text-align: right;
+	/*padding: 0;*/
+	border-left: 0;
+	margin-left: 60px;	
+}
+
+.details p{
+	float: left;
+	padding-left: 70px;
+}
+.headings{
 	font-weight: bold;
+	float: left;
+	border-right: 1px solid grey;
+	height: 30px;
+	width: 100px;
 }
 
-dd{
-	float: right;
-	width: 900px;
 
+ul{
+	padding-left: 0;
+	margin-top: 0;
+	margin-left: 0;
+	border-left: 0;
 }
-
